@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lab.css">
+    <title>Template Document</title>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        
+                        <header>
+                            <h1>CST252 LAB 3</h1>
+                            <h3>Morgan Thornley (He/Him)</h3>
+                            <p>The task we decided to go with is a mirror simulator,<br> 
+                                where participants can place cubes on either side of a bar(mirror),<br> 
+                                and it reflects the cubes an equal distance on the other side. 
+                            </p>
+                        </header>
+                        
+                        <div class="card-content">
+                            <h2>Task Outline</h2>
+                            <h4>1. What actions can I take?</h4>
+                            <ul>
+                                <li>Placing Cubes</li>
+                                <li>Moving the mirror up and down</li>
+                            </ul>
+                            <h4>2. What do I need to keep track of?</h4>
+                            <ul>
+                                <li>Keep track of the coordinates of the cube</li>
+                                <li>Keep track of the coordinates of the bar</li>
+                                <li>Keep track of the cubes placed</li>
+                            </ul>
+                            <h4>3. What do I need to do over and over again?</h4>
+                            <ul>
+                                <li>Check for new cubes placed</li>
+                                <li>calculate coordinate positions</li>
+                            </ul>
+                            <h4>4. When do I have to make decisions?</h4>
+                            <ul>
+                                <li>Where on the y-axis the mirror is</li>
+                                <li>Have to make a decision to subtract or<br> 
+                                    add twice the distance between the cube and the mirror</li>
+                            </ul>
+                        </div>
 
+                            <img src="img/Mirror Graphic.png" alt="graphic demonstrating the position of cubes relative to the mirror">
+                        
+                        <div class="card-content">
+                            <h2>Pseudocode Steps</h2>
+                            <h4>Step 1</h4>
+                            <ul>
+                                <li>Placing Cubes</li>
+                                <li>Moving the mirror up and down</li>
+                            </ul>
+                            <h4>Step 2</h4>
+                            <p>Check position of mirror on the y-axis</p>
+                            <h4>Step 3</h4>
+                            <p>Set cubes on screen, and check position<br> 
+                                of the cube that is placed.<br> 
+                                (Keep track of the x-axis of the cube.<br>
+                                 It’s the same in the reflection)</p>
+                            <h4>Step 4</h4>
+                            <p>Check distance between the cube and the mirror</p>
+                            <h4>Step 5</h4>
+                            <p>If on top, subtract double the distance of<br> 
+                                the cube’s y-axis from the y-axis of the mirror.<br> 
+                                Add double if placed below</p>
+                            <h4>Step 6</h4>
+                            <p>Add that value to the y-axis of the reflection<br> 
+                                (which should already have the x-axis from step 3)</p>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
 </body>
 </html>

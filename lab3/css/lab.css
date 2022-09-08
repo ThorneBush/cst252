@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&display=swap");
+/*============ Fonts Sizes & Images ============*/
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #54496B;
+}
+header {
+  color: #54496B;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.75em;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8D82C3), to(#68e0c0));
+  background-image: linear-gradient(90deg, #8D82C3, #68e0c0);
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  /*border-bottom: solid 1px #afafaf;*/
+}
+
+h3 {
+  font-size: 1.5;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 380;
+  margin-bottom: .2em;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 2em;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 40rem;
+}
+
+.wrapper {
+  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 2em;
+  /* border: solid 1px #afafaf; */
+}
+
+.text-elements {
+  padding: 1em 0;
+}
+
+@media (max-width: 840px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .container {
+    margin: 0 1em;
+  }
+  .btn {
+    padding: 0.7em 4.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  
+  p {
+    font-size: 0.75rem;
+  }
+  .container {
+    margin: 0 0.5em;
+  }
+  .btn {
+    font-size: 0.75em;
+    padding: 0.7em 3em;
+  }
+}
+
+/*============ Columns & Grids ============*/
+
+.row {
+  display: block;
+}
+
+.row .column .card {
+  margin: .5em;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #FCD5C6;
+}
+.row .column .card .card-content{
+  margin: .5em;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #FDEAE3;
+}
