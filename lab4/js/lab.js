@@ -16,7 +16,8 @@ function flowerFunction() {
 	document.querySelector(`#flower3`).style.marginTop = "100px";
 	document.querySelector(`#flower4`).style.marginTop = "100px";
 	document.querySelector(`#flower5`).style.marginTop = "100px";
-
+    //this code makes all the flowers level with each other
+	
 	// DO NOT PUT ANY CODE AFTER THIS POINT
 }
 
