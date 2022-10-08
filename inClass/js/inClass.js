@@ -1,21 +1,15 @@
-// ========= VARIABLES & FUNCTIONS =========//
 
-let player = {
-    Name:'Link',
-    colorOfTunic:'green',
-    health: 100,
-    backpack:['health potion', 'sword']
-};
+document.addEventListener('load', () => {
 
+    // ========= BUTTON =========//
 
-function changeColor (color) {
-    player.colorOfTunic = 'color'
-};
+    let button = document.querySelector("#btn");
 
-//console.log(player);
+    let handler = (e) => {
+        console.log('you clicked');
+        console.log(e);
+    };
 
+    button.addEventListener("click", handler);
 
-function addItemToBackpack (item) {
-    player.backpack.push('item');
-};
-
+});

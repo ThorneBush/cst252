@@ -1,0 +1,35 @@
+
+.btn{
+
+    background-color: rgb(63, 60, 114);
+    color: aliceblue;
+    border-radius: 5em;
+    border: none;
+    font-size: 1.3em;
+    padding: .5em 2em;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(35, 0, 150, 0.436);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.btn:hover{
+    background-color: rgb(61, 75, 136);
+
+}
+.v2{
+    background-color: rgb(109, 66, 190);
+    padding: .5em .8em;
+}
+.v2:hover{
+    background-color: rgb(234, 11, 160);
+}
+
+.output{
+    margin: .5em;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ccc;
+}
+.v3{
+    font-size: 1em;
+}
