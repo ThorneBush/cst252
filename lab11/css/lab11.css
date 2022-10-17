@@ -1,0 +1,17 @@
+.blueBox{
+    background-color: rgb(151, 171, 239);
+    text-align: center;
+    padding: 2em 5em;
+    max-width: 10em;
+    border-radius: .3em;
+    margin: 1em;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: ease 0.3s;
+    box-shadow: 0 3px 10px 0 rgba(59, 58, 54, 0.26);
+}
+.blueBox:hover{
+border-radius: 1em;
+top: -8px;
+}

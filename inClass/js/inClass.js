@@ -26,4 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
   btn1.addEventListener('click', changeText);
   btn2.addEventListener('click', changeText);
 
+
+
+// ========= LOOPS =========//
+
+let boxes = document.querySelectorAll('.loopBox');
+
+boxes.forEach((box) => {box.style.backgroundColor = 'black'})
+// let turnBlackFunction = (boxes) => {
+//   boxes.style.backgroundColor = 'black';
+
+// };
+
+// boxes.forEach(turnBlackFunction)
+
 });
