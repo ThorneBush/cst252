@@ -40,4 +40,23 @@ boxes.forEach((box) => {box.style.backgroundColor = 'black'})
 
 // boxes.forEach(turnBlackFunction)
 
+
+// ========= CONDITIONALS =========//
+
+let inputBox = document.querySelector('#inputBox');
+
+    let checkName = (event) => {
+      
+      let userInput = event.currentTarget.value
+      if (userInput === 'Morgan') {
+        console.log("that's my name!");
+      }
+      else{
+        console.log("that's not my name!");
+      }
+    };
+
+    inputBox.addEventListener('input', checkName)
 });
+
+
