@@ -45,9 +45,9 @@ boxes.forEach((box) => {box.style.backgroundColor = 'black'})
 
 let inputBox = document.querySelector('#inputBox');
 
-    let checkName = (event) => {
+    let checkName = (e) => {
       
-      let userInput = event.currentTarget.value
+      let userInput = e.currentTarget.value
       if (userInput === 'Morgan') {
         console.log("that's my name!");
       }
