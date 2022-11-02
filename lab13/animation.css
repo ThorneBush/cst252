@@ -1,0 +1,32 @@
+.box {
+	
+	color: aliceblue;
+	font-size: 2rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgb(129, 0, 188);
+	padding: 25px;
+	max-width: 7em;
+	border-radius: 1em;
+	cursor: pointer;
+	margin-inline: auto ;
+}
+
+.boxToggleClass {
+	background-color: rgb(0, 188, 188);
+}
+
+.fadeInAnimation {
+	transition-property: background-color, font-weight, max-width;
+	transition-duration: 2s;
+}
+
+.fadeOutAnimation {
+	transition-property: background-color, font-weight, max-width;
+	transition-duration: 1s;	
+}
+.box-end-frame {
+	font-weight: 100;
+	max-width: 9em;
+}

@@ -59,4 +59,15 @@ let inputBox = document.querySelector('#inputBox');
     inputBox.addEventListener('input', checkName)
 });
 
+// ========= ANIMATION =========//
+
+let box = document.querySelector('.box');
+
+let animateFunction = (e) => {
+  box.style.width = '500px';
+  box.style.backgroundColor = 'red';
+}
+
+box.addEventListener('click', animateFunction);
+
 
