@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* all pages */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 55px;
+    line-height: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    margin-top: -35px;
+    border-bottom: 2.5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+/* home page */
+
+#description {
+    display: block;
+    float: right;
+    width: 50%;
+    clear: left;
+    margin: 55px;
+}
+
+#description h1 {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#description h2 {
+    padding-top: 45px;
+}
+
+aside {
+    display: block;
+    margin: 55px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* lab pages */
+
+#labnavbar {
+    margin-top: -35px;
+    border-bottom: 2.5px solid black;
+}
+
+#awwwards {
+    padding: 0%;
+    text-decoration: underline;
+}
+
+#labul {
+    list-style: square;
+}
+
+#labh1 {
+    padding-top: 35px;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+b {
+    text-transform: uppercase;
+}
+
+#menu ul .opener{
+    background-color: rgb(224, 224, 238);
+}
+.listItem:hover{
+    border-radius: 1em;
+    top: -8px;
+}
+.major{
+    cursor: pointer;
+}
+
+/* /////////////////////////////////////////////////// */
+
+#menu{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: fixed;
+    z-index: 500;
+    font-size: 100%;
+    display: block;
+    max-width: 10em; 
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    }
+
+#menu ul.listMain{
+    position: relative;
+    left: -200px;
+    opacity: 0;
+    transition: ease 0.3s;
+}
+
+#menu ul a, #menu ul span {
+    
+    list-style: none;
+    border-bottom: 0;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(217, 217, 217);
+    padding: 0.5em 0.5em;
+    width: 10em;
+    cursor: pointer;
+    /* transition: ease-in-out 0.3s; */
+    box-shadow: 0 3px 10px 0 rgba(59, 58, 54, 0.26);
+
+    }
+#menu ul a:hover, #menu ul span:hover {
+    background-color: rgb(243, 243, 243);
+    border: solid 1px rgb(125, 125, 125);
+
+    }
+#menu ul li ul a{
+    display: none;
+
+}
+.active{
+    color: blue;
+
+}
+
+
+
+
+
