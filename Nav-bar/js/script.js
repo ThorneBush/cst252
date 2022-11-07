@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         else{
             e.currentTarget.classList.remove("active");
-            menuItems.style.left = '-300px';
-            menuItems.style.opacity = '0';
+            menuItems.style.left = '-200px';
+            menuItems.style.opacity = '0.6';
 
         }
     };
