@@ -1,5 +1,5 @@
 .document{
-    background-image: url(.img/drawer.png);
+    background-image: url('../img/drawer.png');
 }
 /* Nav stuff */
 #menu ul .opener{
