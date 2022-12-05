@@ -30,28 +30,33 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     opener.forEach((box) => {
-        let toggleBorder = (e) => {
 
-            let subItem = e.currentTarget.parentElement.querySelectorAll('li ul a')
+        // let toggleBorder = (e) => {
 
-            if (e.currentTarget.classList.contains('active')) {
+        //     let subItem = e.currentTarget.parentElement.querySelectorAll('li ul a')
+
+        //     if (e.currentTarget.classList.contains('active')) {
                 
-                e.currentTarget.classList.remove("active");
+        //         e.currentTarget.classList.remove("active");
 
-				subItem.forEach((box) => {box.style.display = 'none'})
+		// 		subItem.forEach((box) => {box.style.display = 'none'})
 
-              }
-            else{
-               e.currentTarget.classList.add("active");
+        //       }
+        //     else{
+        //        e.currentTarget.classList.add("active");
 
-               subItem.forEach((box) => {box.style.display = 'block'})
+        //        subItem.forEach((box) => {box.style.display = 'block'})
 
-			   e.currentTarget.style.border = 'none';
+		// 	   e.currentTarget.style.border = 'none';
 
-            }
-        };
+        //     }
+        // };
+        
+        let test = (e) => {
+            console.log('test')
+        }
 
-        box.addEventListener('click', toggleBorder);
+        box.addEventListener('click', test);
     })
 
 });

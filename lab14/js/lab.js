@@ -20,8 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				newBox.textContent = 'You won!';
 
 				document.body.appendChild(newBox);
-
-			
 		}
 
 	}

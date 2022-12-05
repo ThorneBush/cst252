@@ -21,10 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
         oneEl.textContent = "Yoooo I'm another button";
         oneEl.classList.add('btn')
         oneEl.classList.add('v3')
+
     //selects the empty div with the class "output" and gives it a variable
     let parent = document.querySelector('.output');
+
     // targets the second button with the "v2" class and gives it a variable
     let add = document.querySelector(".v2");
+    
     //this function adds the 'oneEl' element and appends it to the div with the "output" class
     let makeNew = (e) => {
         console.log('you clicked');

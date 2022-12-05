@@ -1,0 +1,60 @@
+.container{
+    margin: 10em auto ;
+    position: relative;
+}
+.drawer{
+    margin: 0 auto ;
+    background-color: antiquewhite;
+    padding-top: 1em;
+    max-width: 30em;
+    display: block;
+    justify-content: center;
+}
+.test{
+    border: solid black;
+    position: absolute;
+
+   left: 24%;
+    min-width: 30em;
+}
+.file{
+    position: relative;
+    width: 20em;
+    background-color:white;
+    padding: .5em;
+    margin: 6px auto 0;
+    text-align: center;
+    top: 0;
+    transition: ease 0.3s;
+    box-shadow: 0 3px 10px 0 rgba(80, 52, 36, 0.26);
+}
+.file:hover{
+    top: -10px;
+}
+.knob{
+    z-index: 1;
+    margin: 1em auto 0;
+    cursor: pointer;
+    max-width: 28em;
+    background-color: rgb(120, 85, 74);
+    display: flex;
+    justify-content: center;
+}
+.drawerOpen{
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(232, 176, 161);
+    border-radius: 10px;
+    margin: 10px;
+}
+.on{
+    /* background-color:rgb(72, 17, 183); */
+}
+.closed{
+    /* top: -13%;
+    left: 100%;
+    transform: translate(-50%, -50%); */
+    
+    display: none;
+}
