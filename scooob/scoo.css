@@ -1,0 +1,35 @@
+/* This is for the big white text */
+#div2{
+    padding: 2px 2px 2px 0px;
+    width: 400px;
+    color:#FFF;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 5em;
+    position: center;
+    bottom: 0;
+  }
+.width {
+    width: 30em;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+/* the color gradient  */
+:root {
+    --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  
+  }
+  .wrapper {color: #333;
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 15s infinite;
+  }
+  /* makes the background change colors  */
+  @keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+  }
+
+  

@@ -1,0 +1,28 @@
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(232, 232, 232);
+}
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    max-width: 10em;
+    margin-right: 10em;
+    padding: .5em;
+}
+button{
+    margin: .5em;
+}
+
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+
